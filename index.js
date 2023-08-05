@@ -110,7 +110,7 @@ async function afterLoaded() {
     }
     else {
         const mainContainer = document.getElementById('mainContainer');
-        mainContainer.innerHTML = "Please open a leetcode or coding ninjas problem to use this extension"
+        mainContainer.innerHTML = "<h2>Please open a leetcode or coding ninjas problem to use this extension</h2>"
     }
 }
 
