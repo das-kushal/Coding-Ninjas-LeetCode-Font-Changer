@@ -1,0 +1,32 @@
+{
+    "name": "Coding Ninjas & Leetcode Font Changer",
+    "description": "Changes the font of the Coding Ninjas and Leetcode editor and also you can change the letter spacing",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": [
+        "storage",
+        "tabs",
+        "activeTab"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "favFinal.png"
+    },
+    "icons": {
+        "16": "favFinal.png",
+        "48": "favFinal.png",
+        "128": "favFinal.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.codingninjas.com/*",
+                "https://leetcode.com/problems/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "author": "Kushal Das"
+}

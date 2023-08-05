@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Ninjas Font Changer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container" id="mainContainer">
+        <img src="favFInal.png" alt="Logo.png" height="50" />
+        <h1 class="display-6">Coding Ninjas & LeetCode Font Changer</h1>
+        <!-- Font Select -->
+        <div class="font-select">
+            <label for="fontSelect">Select Font:</label>
+            <select class="form-control form-control-sm" id="fontSelect" aria-label=".form-control-sm example">
+                <!-- populated by js -->
+            </select>
+        </div>
+        <div class="flex-con">
+
+
+
+            <!-- <div class="letter-spacing-slider">
+                <label for="letterSpacingSlider">Letter Spacing:</label>
+                <input type="range" class="form-range" id="letterSpacingSlider" min="0" max="2" step="0.1" value="0"
+                    aria-label="Letter Spacing Slider">
+            </div> -->
+            <!-- <div> -->
+            <label for="letterSpacingInput">Letter Spacing:</label>
+            <input class="form-control form-control-sm" id="letterSpacingInput" type="number" min="0" max="2" step="0.1"
+                placeholder="Ex .5" aria-label=".form-control-sm example">
+            <!-- </div> -->
+        </div>
+
+        <button type="button" id="changeFont" class="btn btn-outline-success">Change</button>
+    </div>
+
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
