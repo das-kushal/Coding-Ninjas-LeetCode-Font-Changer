@@ -5,7 +5,7 @@
 
 
 > This is a chrome extension which helps one to change the font of editor of leetcode and coding ninjas and also the letter spacing
-
-#### Here is a screenshot of it 
+<div align="center">
+<h4>Here is a screenshot of it</h4> 
 <img src="https://github.com/das-kushal/Coding-Ninjas-LeetCode-Font-Changer/assets/86544278/620ac282-3589-47e6-9855-8637f7a9914a" alt="fontChangerExtension" height="500px" />
-
+</div>
